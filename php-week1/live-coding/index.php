@@ -1,9 +1,6 @@
 <h1>Live Coding</h1>
 <?php
-$name = "Ah Cheam Reav";
-$skill = "Web and Mobile Application Development";
-$content = "$name <br> $skill";
-
-echo $content
+$name = "Alice Smith";
+$content = "Welcome back, Alice Smith! You are currently enrolled in Web Mobile Application Development (WMAD).";
+echo $content;
 ?>
-
