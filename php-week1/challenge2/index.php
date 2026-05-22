@@ -17,7 +17,7 @@ $examScore = 78.5;
 $attendancePercent = 90;
 
 // TODO: Write the mathematical expression here
-$averageScore = ;
+$averageScore = ($homeworkScore + $examScore)/2 ;
 
 // TODO: Write the logical evaluation comparison here (Must result in true or false)
 $hasPassed = ;
@@ -43,7 +43,8 @@ $hasPassed = ;
         <p style="text-align: left;"><strong>Attendance Record:</strong> <?php echo $attendancePercent; ?>%</p>
 
         <div class="status-box">
-            </div>
+            <?php echo $hasPassed; ?>
+        </div>
     </div>
 </body>
 </html>
